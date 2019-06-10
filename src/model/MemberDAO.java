@@ -108,7 +108,7 @@ public class MemberDAO {
 				fw = new MemberFileWriter(file);
 				memberList.remove(member);
 				/*
-				 * ArrayList 객체를 작업에 따라 수정하고, 이를 MemberFileWriter 객체의 saveMember()메소드에 전달
+				 * 수정 ArrayList 객체를 작업에 따라 수정하고, 이를 MemberFileWriter 객체의 saveMember()메소드에 전달
 				 */
 				fw.saveMember(memberList);
 				ret = 0;
